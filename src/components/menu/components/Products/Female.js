@@ -15,7 +15,7 @@ const FemaleStyled = styled.div`
   position: relative;
   @media (max-width:600px){
     max-width: 100%;
-    z-index: 99;
+    z-index: 0;
   }
   @media(max-width:900px){
     display: flex;

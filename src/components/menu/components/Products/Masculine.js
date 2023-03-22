@@ -12,6 +12,10 @@ const MasculineStyled = styled.div`
   max-width: 90%;
   margin: auto;
   background-color:${({theme})=>theme.backgroundColor};
+  @media (max-width:600px){
+    max-width: 100%;
+    z-index: 0;
+  }
   @media(max-width:900px){
     display: flex;
     flex-direction: column;

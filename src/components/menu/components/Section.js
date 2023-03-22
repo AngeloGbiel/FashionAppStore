@@ -40,6 +40,8 @@ const SectionStyled = styled.div`
         font-family: 'Jacques Francois', serif;
     }
     @media(max-width:800px){
+        position: relative;
+        z-index: 0;
         .img img{
             display: none;
         }

@@ -96,6 +96,10 @@ const FooterStyled = styled.div`
             max-width: 100%;
         }
     }
+    @media (max-width:600px){
+    max-width: 100%;
+    z-index: 0;
+  }
 `
 
 export default function Footer() {

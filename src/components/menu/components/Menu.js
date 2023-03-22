@@ -31,6 +31,15 @@ const MenuStyled = styled.div`
   .button.active::after{
     width: 100%;
   }
+  @media(max-width:600px){
+    display: flex;
+    justify-content: center;
+    div{
+      border: none;
+    }
+    position: relative;
+        z-index: 0;
+  }
 `
 const BottonLink = styled(Link)`
   font-size: 1.7rem;
