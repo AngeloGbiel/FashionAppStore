@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import * as BsIcons from 'react-icons/bs'
+import Aos from 'aos'
 
 const FooterStyled = styled.div`
     background-color: ${({ theme }) => theme.backgroundBase};
@@ -103,10 +104,13 @@ const FooterStyled = styled.div`
 `
 
 export default function Footer() {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
     return (
         <FooterStyled>
             <div className='container'>
-                <div className='finish'>
+                <div className='finish' data-aos="zoom-in">
                     <h3>Feshion Store</h3>
                     <p>Amet minim mollit non deserunt ullamco est
                         sit aliqua dolor do amet sint. Velit officia consequat
@@ -114,13 +118,13 @@ export default function Footer() {
                         sunt nostrud amet.</p>
                 </div>
                 <div className='communication'>
-                    <div className='Contact'>
+                    <div className='Contact' data-aos="zoom-in">
                         <h2>Contact</h2>
                         <p>Instagram</p>
                         <p>Whatsapp</p>
                         <p>Facebook</p>
                     </div>
-                    <div className='UsefulLinks'>
+                    <div className='UsefulLinks' data-aos="zoom-in">
                         <h2>Useful links</h2>
                         <p>Clothing</p>
                         <p>Fashion</p>
@@ -128,7 +132,7 @@ export default function Footer() {
                         <p>Color</p>
                     </div>
                 </div>
-                <div className='sendInformation'>
+                <div className='sendInformation' data-aos="zoom-in">
                     <h2>For more information</h2>
                     <div className='input'>
                         <input id='email' className='email' placeholder='E-mail'></input>

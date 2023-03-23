@@ -41,9 +41,26 @@ const SectionStyled = styled.div`
     }
     @media(max-width:800px){
         position: relative;
+        height: 60vh;
         z-index: 0;
         .img img{
             display: none;
+        }
+        .content h2{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+        }
+        .content{
+            text-align: center;
+            justify-content: center;
         }
     }
 `

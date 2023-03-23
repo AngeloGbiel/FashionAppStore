@@ -124,11 +124,11 @@ export const HeaderStyled = styled.div`
             display: flex;
             flex-direction: column;
             width: 100%;
-            border-bottom: 1px solid white;
+            /* border-bottom: 1px solid white; */
             padding-bottom: 80%;
         }
         .nameSocialMidia{
-            font-size: 1.3rem;
+            display: none;
         }
         .close{
             display: flex;

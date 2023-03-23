@@ -103,5 +103,13 @@ export const MainStyled = styled.div`
         .circles{
             display: none;
         }
+        .content h2{
+            font-size: 2.5rem;
+            color: #ECC6A2;
+        }
+        .content p{
+            font-size: 1.3rem;
+            color: #ECC6A2;
+        }
     }
 `

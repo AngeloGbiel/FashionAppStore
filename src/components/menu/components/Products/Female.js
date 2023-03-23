@@ -34,12 +34,13 @@ export default function Female() {
   },[])
   return (
     <FemaleStyled  data-aos="fade-right" data-aos-duration="1500">
-      {DataProducts.female.map((value) => {
+      {DataProducts.female.map((value,i) => {
         return (
           <FemaleCard
             img = {value.img}
             title = {value.title}
             description = {value.description}
+            key={i}
           />
         )
       })}

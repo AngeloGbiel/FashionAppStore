@@ -9,6 +9,7 @@ export const CSSreset = createGlobalStyle`
     body{
         background-color: ${({theme})=>theme.backgroundColor};
         overflow-x: hidden;
+        width: auto;
     }
     a{
         text-decoration: none;
