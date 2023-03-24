@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import camisa from '../img/camisa.png'
 
 const SectionStyled = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     display: flex;
     position: relative;
