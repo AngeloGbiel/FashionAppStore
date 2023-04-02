@@ -14,7 +14,6 @@ export const MainStyled = styled.div`
     .imgWoman img{
         width: 400px;
         position: relative;
-        bottom: -10%;
         z-index: -1;
     }
     .imgWoman{
