@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainStyled = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80vh;
+    height: 90vh;
     margin: auto;
     max-width: 80%;
     .description{
@@ -14,12 +14,10 @@ export const MainStyled = styled.div`
     .imgWoman img{
         width: 400px;
         position: relative;
-        /*bottom:-10px;*/
+        bottom:-10px;
         z-index: -1;
     }
-    .imgWoman{
-        height: 90vh;
-    }
+    
     .shape{
         position: absolute;
         width: 300px;
