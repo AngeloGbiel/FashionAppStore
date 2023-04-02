@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainStyled = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 90%;
+    height: 80vh;
     margin: auto;
     max-width: 80%;
     .description{
